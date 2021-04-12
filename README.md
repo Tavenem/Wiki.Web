@@ -13,8 +13,9 @@ Tavenem.Wiki.
 Tavenem.Wiki.Web is available as a [NuGet package](https://www.nuget.org/packages/Tavenem.Wiki.Web/).
 
 ## Configuration
-The `WikiWebOptions` static class includes a number of settable properties which control the
-behavior of the wiki.
+The `IWikiWebOptions` interface is used to control the behavior of the wiki. It is expected as a
+parameter to various methods, and in most implementations is expected to be provided by dependency
+injection after being configured during initialization.
 - `AboutPageTitle`*: The title of the main about page. Default is "About".
 - `AdminGroupName`: The name of the admin user group. Default is "Wiki Admins".
 - `AdminNamespaces`: An optional collection of namespaces which may not be assigned to pages by
