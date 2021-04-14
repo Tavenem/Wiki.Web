@@ -24,6 +24,7 @@
     <RepositoryUrl>https://github.com/Tavenem/Wiki.Web.git</RepositoryUrl>
     <RepositoryBranch>main</RepositoryBranch>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
@@ -36,7 +37,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.5" />
-    <PackageReference Include="Tavenem.Wiki" Version="0.1.0-preview" />
+    <PackageReference Include="Tavenem.Wiki" Version="0.2.0-preview" />
   </ItemGroup>
 
 </Project>
