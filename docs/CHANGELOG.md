@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2-preview
+### Updated
+- Update dependencies
+
 ## 0.1.1-preview
 ### Updated
 - Update dependencies
