@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace Tavenem.Wiki.Web
@@ -45,15 +44,5 @@ namespace Tavenem.Wiki.Web
         /// the <paramref name="principal"/> or <see langword="null"/>
         /// </returns>
         ValueTask<IWikiUser?> GetUserAsync(ClaimsPrincipal? principal);
-
-        /// <summary>
-        /// Returns a list of all wiki admin users.
-        /// </summary>
-        /// <returns>
-        /// A <see cref="ValueTask{T}"/> that represents the result of the asynchronous query, a list of
-        /// <see cref="IWikiUser"/>s who have <see cref="IWikiUser.IsWikiAdmin"/> set to <see
-        /// langword="true"/>.
-        /// </returns>
-        ValueTask<IList<IWikiUser>> GetWikiAdminUsersAsync();
     }
 }

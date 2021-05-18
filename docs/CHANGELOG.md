@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0-preview
+### Removed
+- Remove `GetWikiAdminUsersAsync` method from `IWikiUserManager` interface
+
 ## 0.1.1-preview - 0.1.6-preview
 ### Updated
 - Update dependencies
