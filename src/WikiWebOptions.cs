@@ -23,25 +23,6 @@ namespace Tavenem.Wiki.Web
         /// </summary>
         public string? AboutPageTitle { get; set; } = "About";
 
-        private const string AdminGroupNameDefault = "Wiki Admins";
-        private string _adminGroupName = AdminGroupNameDefault;
-        /// <summary>
-        /// <para>
-        /// The name of the admin user group.
-        /// </para>
-        /// <para>
-        /// If omitted "Wiki Admins" is used.
-        /// </para>
-        /// </summary>
-        [NotNull]
-        public string? AdminGroupName
-        {
-            get => _adminGroupName;
-            set => _adminGroupName = string.IsNullOrWhiteSpace(value)
-                ? AdminGroupNameDefault
-                : value;
-        }
-
         private List<string>? _adminNamespaces;
         /// <summary>
         /// <para>

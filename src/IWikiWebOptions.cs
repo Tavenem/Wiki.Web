@@ -23,16 +23,6 @@ namespace Tavenem.Wiki.Web
 
         /// <summary>
         /// <para>
-        /// The name of the admin user group.
-        /// </para>
-        /// <para>
-        /// If omitted "Wiki Admins" is used.
-        /// </para>
-        /// </summary>
-        string AdminGroupName { get; }
-
-        /// <summary>
-        /// <para>
         /// An optional collection of namespaces which may not be assigned to pages by non-admin
         /// users.
         /// </para>

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0-preview
+### Removed
+- Remove `AdminGroupName` from `IWikiWebOptions` interface
+
 ## 0.2.0-preview
 ### Removed
 - Remove `GetWikiAdminUsersAsync` method from `IWikiUserManager` interface
