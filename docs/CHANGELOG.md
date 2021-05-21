@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1-preview
+### Updated
+- Update dependencies
+
 ## 0.3.0-preview
 ### Removed
 - Remove `AdminGroupName` from `IWikiWebOptions` interface
