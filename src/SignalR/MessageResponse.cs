@@ -67,6 +67,18 @@ public class MessageResponse
     /// <summary>
     /// Initialize a new instance of <see cref="MessageResponse"/>.
     /// </summary>
+    public MessageResponse()
+    {
+        Id = string.Empty;
+        Content = string.Empty;
+        SenderId = string.Empty;
+        SenderName = string.Empty;
+        TopicId = string.Empty;
+    }
+
+    /// <summary>
+    /// Initialize a new instance of <see cref="MessageResponse"/>.
+    /// </summary>
     /// <param name="message">The <see cref="Message"/>.</param>
     /// <param name="html">
     /// The HTML content of the message.
