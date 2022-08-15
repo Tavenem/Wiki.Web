@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0-preview
+### Updated
+- Add source generated JSON serializer contexts.
+
 ## 0.5.0-preview
 ### Changed
 - Update to .NET 7 preview

@@ -1,4 +1,12 @@
-﻿namespace Tavenem.Wiki.Web.SignalR;
+﻿using System.Text.Json.Serialization;
+
+namespace Tavenem.Wiki.Web.SignalR;
+
+/// <summary>
+/// A JSON serializer context for <see cref="SignalR.ReplyRequest"/>.
+/// </summary>
+[JsonSerializable(typeof(ReplyRequest))]
+public partial class ReplyRequestContext : JsonSerializerContext { }
 
 /// <summary>
 /// A reply made to an <see cref="IWikiTalkHub"/>

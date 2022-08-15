@@ -1,4 +1,12 @@
-﻿namespace Tavenem.Wiki.Web.SignalR;
+﻿using System.Text.Json.Serialization;
+
+namespace Tavenem.Wiki.Web.SignalR;
+
+/// <summary>
+/// A JSON serializer context for <see cref="SignalR.MessageResponse"/>.
+/// </summary>
+[JsonSerializable(typeof(MessageResponse))]
+public partial class MessageResponseContext : JsonSerializerContext { }
 
 /// <summary>
 /// A compact form of <see cref="Message"/> suitable for SignalR transport.
