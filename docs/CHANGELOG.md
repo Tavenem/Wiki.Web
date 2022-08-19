@@ -1,5 +1,14 @@
 # Changelog
 
+## DEPRECATED
+This project has been deprecated.
+
+The user and group objects have been moved to the base `Tavenem.Wiki` project.
+
+The options have been merged with the base `IWikiOptions` object.
+
+The SignalR features have been moved to the client project(s).
+
 ## 0.6.0-preview
 ### Updated
 - Add source generated JSON serializer contexts.
